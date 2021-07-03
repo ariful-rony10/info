@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+.left-fixed-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+}
+.left-fixed-icons .fixed-icon{
+    color: #333;
+    padding: 5px 20px;
+    margin: 15px;
+}
+.github-oct:hover{
+    background-color: #333;
+}
